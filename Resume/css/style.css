@@ -1,0 +1,187 @@
+body{
+    background-color: #E5E5E5;
+    padding: 40px;
+    font-family: 'Montserrat';}
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    /* Без цього sidebar був розташован під main content.
+      flex-direction: row; sidebar опинився справа від Main content 
+     змінили flex-direction: row-reverse; sidebar опинився зліва від Main content */
+     background-color: white;
+     width: 1000px;
+     margin: 0 auto;
+     }
+
+.sidebar{
+    background-color: #E0EBFE;
+    width: 370px;
+    width: calc(100% - 370px);}
+    img{
+        width: 370px;
+        padding: 40px 0px 0px 0px;}
+    .contacts{
+        padding: 52px 0px 48px 40px;
+        font-size: 14px}
+        .contacts h3{
+            padding: 0px 0px 0px 0px;}
+    .tech_skills{
+        padding: 0px 0px 44px 18px;}
+        .tech_skills h3{
+            padding: 0px 0px 0px 22px;} 
+    .soft_skills{
+        padding: 0px 0px 0px 22px;}
+        .soft_skills h3{
+            padding: 0px 0px 0px 22px;}
+h3{
+    font-size: 22px;}
+h2{
+    font-size: 14px;
+    color: #000000;}
+
+h1 {
+    font-size: 45px;
+    color: #000000;}
+
+.main-content-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0 0 12px 0;}
+        
+
+
+.main-content  {
+    padding: 88px;
+
+}
+
+.about-me-conteiner{ 
+    margin: 0 0 64px 0;}
+
+    .my-profession{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;}
+    .my-name{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0 0 28px 0; /* у заголовків стоїть margin по замовчуванню  */
+        color: #000000;}
+    .my-descr{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        width: 525px;}
+
+
+
+
+
+.projects-conteiner{
+        margin-bottom: 48px;
+     }
+     .main-content-title{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    .project-item{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;}
+    .project-list{
+        padding: 0 0 0 14px;
+        margin: 0px;
+    }
+    .projeckited-descr{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+    }
+    .project-item-link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #005FFF;
+    }
+.experience-container{
+    margin-bottom: 44px;
+}
+    .company-titel{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin: 0px;
+    } 
+    .company-titel-descr{
+        color: #6D9BF5;
+    }
+    .company-data{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A8A8A8;
+    }
+    .company-list{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        margin: 0 0 0 16px;
+        padding: 0px;
+    }
+
+
+    .company1{
+        margin-bottom: 16px;
+        width: 525px;
+    }
+    .company2{
+        margin-bottom: 20px;
+        width: 525px;
+    }
+    .company3{
+        width: 525px;
+
+    }
+    .education-title-blue{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #6D9BF5;
+        margin: 0px;
+        padding-bottom: 12px;
+    }
+    .education-title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin: 0px;
+    }
+    .education-data{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A8A8A8;
+    }
+
+    
